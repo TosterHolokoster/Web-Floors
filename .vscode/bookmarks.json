@@ -34,11 +34,16 @@
 			},
 			{
 				"line": 448,
+				"column": 14,
+				"label": "Price List"
+			},
+			{
+				"line": 480,
 				"column": 5,
 				"label": "Footer"
 			},
 			{
-				"line": 505,
+				"line": 564,
 				"column": 12,
 				"label": "Templates"
 			}

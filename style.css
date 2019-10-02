@@ -446,17 +446,49 @@ header .nav-item{
     background-color: #2A76B0;
 }
 
+/** PRICE LIST */
+
+.price-item{
+    display: flex;
+    width: 700px; /* Проверить если будет flex */
+    height: 140px;
+}
+.price-item .dicription{
+    position: relative;
+    width: 520px;
+    padding: 40px 20px 10px 20px;
+    background-color: #fff;
+}
+.price-item h3{
+    display: inline-block;
+    padding: 6px 18px;
+    position: absolute;
+    top: -22px;
+    left: 40px;
+    background-color: #fff;
+    border: solid 4px #2D889A;
+    color: #2D889A;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.price-item .price-box{
+    width: 180px;
+    background-color: #2D889A;
+}
+
 /** FOOTER */
 
 
 footer .wrapper{
+    padding: 40px 0;
     border-top: solid 10px #2D889A;
     background: #fff;
 }
 footer .grid{
     width: 1400px;
     margin: auto;
-    padding-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 40px;
@@ -485,6 +517,35 @@ footer #map{
     width: 1400px;
     margin: auto;
     text-align: center;
+}
+footer #map button{
+    padding: 0 10px;
+    height: 30px;
+    width: auto;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer #map span{
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+footer #map span::after{
+    content: '';
+    position: absolute;
+    top: -3px;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    background-color: #fff;
+}
+footer #map .icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(resouces/icons/map.svg);
+    vertical-align: bottom;
 }
 
 .footer-down a{ color: #fff; font-weight: 500; }
