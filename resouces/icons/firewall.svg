@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FED2A4;}
+	.st1{fill:#FFBD86;}
+	.st2{fill:#FDBF00;}
+	.st3{fill:#FF9100;}
+	.st4{fill:#CC4327;}
+	.st5{fill:#95301B;}
+	.st6{fill:#F4D34E;}
+	.st7{fill:#FFA41F;}
+</style>
+<path class="st0" d="M512,256v-90H0v90h61v30H0v90h61v30H0v90h512v-90h-61v-30h61v-90h-61v-30H512z"/>
+<path class="st1" d="M451,256v30h61v90h-61v30h61v90H256V166h256v90H451z"/>
+<path class="st2" d="M30,316h91v30H30V316z"/>
+<path class="st3" d="M271,316h90v30h-90V316z"/>
+<path class="st3" d="M331,376h90v30h-90V376z"/>
+<path class="st2" d="M151,316h90v30h-90V316z"/>
+<path class="st2" d="M91,376h90v30H91V376z"/>
+<path class="st2" d="M211,376h90v30h-90V376z"/>
+<path class="st2" d="M91,256h330v30H91V256z"/>
+<path class="st2" d="M30,436h91v30H30V436z"/>
+<path class="st2" d="M151,436h90v30h-90V436z"/>
+<path class="st3" d="M271,436h90v30h-90V436z"/>
+<path class="st3" d="M391,436h91v30h-91V436z"/>
+<path class="st3" d="M391,316h91v30h-91V316z"/>
+<path class="st2" d="M30,196h452v30H30V196z"/>
+<path class="st3" d="M256,376h45v30h-45V376z"/>
+<path class="st3" d="M256,256h165v30H256V256z"/>
+<path class="st3" d="M256,196h226v30H256V196z"/>
+<path class="st4" d="M346,46c-8.4,0-15-6.6-15-15V16H181v15c0,8.4-6.6,15-15,15h-45v101.4c0,79.5,54,148.2,131.4,167.7l3.6,0.9
+	l3.6-0.9C337,295.6,391,226.9,391,147.4V46L346,46z"/>
+<path class="st5" d="M391,46v101.4c0,79.5-54,148.2-131.4,167.7L256,316V16h75v15c0,8.4,6.6,15,15,15H391z"/>
+<path class="st6" d="M321.1,101.8c-12-4.2-22.5-11.4-30.9-20.7l-4.5-5.1h-59.4l-4.5,5.1c-8.4,9.3-18.9,16.5-30.9,20.7l-9.9,3.6v42
+	c0,45.6,27,86.7,69.3,104.4l5.7,2.4l5.7-2.4C304,234.1,331,193,331,147.4v-42L321.1,101.8z"/>
+<path class="st7" d="M331,105.4v42c0,45.6-27,86.7-69.3,104.4l-5.7,2.4V76h29.7l4.5,5.1c8.4,9.3,18.9,16.5,30.9,20.7L331,105.4z"/>
+</svg>

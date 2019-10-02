@@ -1,0 +1,47 @@
+[
+	{
+		"path": "$ROOTPATH$\\style.css",
+		"bookmarks": [
+			{
+				"line": 22,
+				"column": 0,
+				"label": "Top Header"
+			},
+			{
+				"line": 57,
+				"column": 0,
+				"label": "Header"
+			},
+			{
+				"line": 107,
+				"column": 0,
+				"label": "Meet Box"
+			},
+			{
+				"line": 171,
+				"column": 4,
+				"label": "Floors Features"
+			},
+			{
+				"line": 233,
+				"column": 0,
+				"label": "Our Features"
+			},
+			{
+				"line": 314,
+				"column": 6,
+				"label": "How We Work"
+			},
+			{
+				"line": 448,
+				"column": 5,
+				"label": "Footer"
+			},
+			{
+				"line": 505,
+				"column": 12,
+				"label": "Templates"
+			}
+		]
+	}
+]
