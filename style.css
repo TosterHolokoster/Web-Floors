@@ -448,11 +448,15 @@ header .nav-item{
 
 /** PRICE LIST */
 
-.price-item{
-    display: flex;
-    width: 700px; /* Проверить если будет flex */
-    height: 140px;
+#price-list .grid{
+    display: grid;
+    grid-template: repeat(4, 140px)/repeat(2, 700px);
+    gap: 40px;
+    justify-content: center;
+    margin-top: 60px;
 }
+
+.price-item{ display: flex; }
 .price-item .dicription{
     position: relative;
     width: 520px;
@@ -474,12 +478,49 @@ header .nav-item{
     box-sizing: border-box;
 }
 .price-item .price-box{
+    position: relative;
     width: 180px;
     background-color: #2D889A;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.price-item .price-box > span{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: .5;
+}
+.price-item .price-box .price{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 140px;
+    filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.5));
+}
+.price-item .price-box span{
+    font-size: 28px;
+    font-weight: 500;
+}
+.price-item .price-box sup{  font-size: 56px; }
+.price-item .price-box div{
+    position: absolute;
+    right: -8px;
+    bottom: -30px;
+    font-size: 96px;
+    font-weight: 700;
+    opacity: .5;
+}
+
+/** DISCOUNT */
+
+#discount{
+    height: 280px;
+    margin-top: 80px;
+    background: linear-gradient(#2AB0A2, #2A76B0);
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.25);
 }
 
 /** FOOTER */
-
 
 footer .wrapper{
     padding: 40px 0;
