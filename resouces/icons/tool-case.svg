@@ -1,44 +1,21 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 296.06 296.06" style="enable-background:new 0 0 296.06 296.06;" xml:space="preserve">
-<g>
-	<path d="M296.06,109.52v-47.34c0-6.37-5.169-11.538-11.538-11.538h-82.212v-31.76c0-5.029-4.081-9.112-9.111-9.112h-90.338
-		c-5.03,0-9.111,4.083-9.111,9.112v31.76H11.538C5.168,50.643,0,55.811,0,62.181v47.34H296.06z M114.105,30.126h67.85v20.517h-67.85
-		V30.126z"/>
-	<path d="M262.95,136.384v21.087c0,2.761-2.239,5-5,5h-48.855c-2.761,0-5-2.239-5-5v-21.087H91.966v21.087c0,2.761-2.239,5-5,5
-		H38.11c-2.761,0-5-2.239-5-5v-21.087H0v138.367c0,6.37,5.168,11.539,11.538,11.539h272.984c6.369,0,11.538-5.169,11.538-11.539
-		V136.384H262.95z"/>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
-<g>
-</g>
+	 viewBox="0 0 296.1 296.1" style="enable-background:new 0 0 296.1 296.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#D8D7DA;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#CC4327;}
+	.st3{fill:#A03C27;}
+</style>
+<rect x="148" y="109.5" class="st0" width="148" height="53"/>
+<rect y="109.5" class="st1" width="148" height="53"/>
+<path class="st2" d="M296.1,109.5V62.2c0-6.4-5.2-11.5-11.5-11.5h-82.2V18.9c0-5-4.1-9.1-9.1-9.1h-90.3c-5,0-9.1,4.1-9.1,9.1v31.8
+	H11.5C5.2,50.6,0,55.8,0,62.2v47.3L296.1,109.5L296.1,109.5z M114.1,30.1H182v20.5h-67.8V30.1z"/>
+<path class="st2" d="M263,136.4v21.1c0,2.8-2.2,5-5,5h-48.9c-2.8,0-5-2.2-5-5v-21.1H92v21.1c0,2.8-2.2,5-5,5H38.1c-2.8,0-5-2.2-5-5
+	v-21.1H0v138.4c0,6.4,5.2,11.5,11.5,11.5h273c6.4,0,11.5-5.2,11.5-11.5V136.4H263z"/>
+<path class="st3" d="M263,157.5c0,2.8-2.2,5-5,5h-48.9c-2.8,0-5-2.2-5-5v-21.1H148v149.9h136.5c6.4,0,11.5-5.2,11.5-11.5V136.4H263
+	V157.5z"/>
+<path class="st3" d="M284.5,50.6h-82.2V18.9c0-5-4.1-9.1-9.1-9.1H148v20.4H182v20.5H148v58.9h148v0V62.2
+	C296.1,55.8,290.9,50.6,284.5,50.6z"/>
 </svg>

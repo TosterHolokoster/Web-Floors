@@ -518,6 +518,116 @@ header .nav-item{
     margin-top: 80px;
     background: linear-gradient(#2AB0A2, #2A76B0);
     box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#discount h3{
+    color: #E9E9E9;
+    font-size: 24px;
+    text-align: right;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.251);
+    line-height: 36px;
+}
+#discount h3 p:first-child{
+    position: relative;
+    right: 75%;
+}
+
+#discount .percentage{
+    height: 140px;
+    width: 140px;
+    margin: 0 60px;
+    background-color: #E9E9E9;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.749);
+    border-radius: 100%;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+#discount .percentage span{ font-size: 64px; }
+#discount .percentage p{
+    text-align: center;
+    line-height: 140px;
+    font-size: 72px;
+    font-weight: 700;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+}
+
+#discount .main-btn:hover{ background-color: #f0f0f0; }
+#discount .main-btn{ background-color: #E9E9E9; }
+
+#discount .gradient-fill{
+    background: linear-gradient(180deg, #2AB0A2 0%, #2A76B0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/** GALLERY */
+
+#gallery .wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.image-packs{
+    width: 336px;
+    height: 650px;
+    overflow: hidden scroll;
+}
+.image-packs .pack{
+    width: 320px;
+    height: 200px;
+    background-color: #fff;
+}
+.image-packs .pack:not(:last-child){
+    margin-bottom: 25px;
+}
+
+.image-view{
+    position: relative;
+    margin-left: 60px;
+}
+.image-view .header{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 45px;
+    background-color: #fff;
+}
+.image-view .header .address::before{ background-image: url(resouces/icons/placeholder.svg); }
+.image-view .header .service-name::before{ background-image: url(resouces/icons/tool-case.svg); }
+.image-view .header p:last-child{ margin-left: 80px; }
+.image-view .header p{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.image-view .header p::before{
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: -3px;
+    width: 20px;
+    height: 20px;
+}
+.image-view .header .counter{
+    text-align: right;
+    color: #C4C4C4;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.image-list, .image-list img, .image-view{
+    width: 1040px;
+    height: 650px;
 }
 
 /** FOOTER */
