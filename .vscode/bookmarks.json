@@ -8,54 +8,69 @@
 				"label": "Top Header"
 			},
 			{
-				"line": 57,
+				"line": 86,
+				"column": 5,
+				"label": "Order Form"
+			},
+			{
+				"line": 159,
 				"column": 0,
 				"label": "Header"
 			},
 			{
-				"line": 107,
+				"line": 210,
 				"column": 0,
 				"label": "Meet Box"
 			},
 			{
-				"line": 171,
+				"line": 274,
 				"column": 4,
 				"label": "Floors Features"
 			},
 			{
-				"line": 233,
+				"line": 336,
 				"column": 0,
 				"label": "Our Features"
 			},
 			{
-				"line": 314,
+				"line": 420,
 				"column": 6,
 				"label": "How We Work"
 			},
 			{
-				"line": 448,
+				"line": 554,
 				"column": 14,
 				"label": "Price List"
 			},
 			{
-				"line": 513,
+				"line": 620,
 				"column": 8,
 				"label": "Discount"
 			},
 			{
-				"line": 567,
+				"line": 675,
 				"column": 11,
 				"label": "Gallery"
 			},
 			{
-				"line": 634,
+				"line": 816,
 				"column": 5,
 				"label": "Footer"
 			},
 			{
-				"line": 719,
+				"line": 901,
 				"column": 12,
 				"label": "Templates"
+			},
+			{
+				"line": 929,
+				"column": 4,
+				"label": "Media"
+			},
+			{
+				"line": 956,
+				"column": 4,
+				"label": "1400px - 1700px"
 			}
 		]
 	}

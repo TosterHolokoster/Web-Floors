@@ -20,28 +20,54 @@
         <div class="circle"></div>
         <a href="mailto:uec-nk@yandex.ru">UEC-NK@yandex.ru</a>
     </div>
+    <div id="order-form">
+        <div class="dark"></div>
+        <div class="wrapper shadow-down">
+            <h2>Форма заявки</h2>
+            <form>
+                <div>
+                    <h3>Как к Вам обращаться?</h3>
+                    <input type="text" name="last-name" id="f-last-name" placeholder="Фамилия">
+                    <input type="text" name="first-name" id="f-first-name" placeholder="Имя">
+                </div>
+                <div>
+                    <h3>
+                        Как нам связаться с Вами?
+                        <span>Можно написать что-то одно или оба варианта сразу</span>
+                    </h3>
+                    <input type="tel" name="phone" id="f-phone" placeholder="Телефон">
+                    <input type="email" name="email" id="f-email" placeholder="E-Mail">
+                </div>
+                <div>
+                    <h3>Ваше сообщение</h3>
+                    <textarea name="message" id="f-message"></textarea>
+                </div>
+                <input type="submit" class="main-btn" value="Отправить">
+            </form>
+        </div>
+    </div>
 
-    <header>
+    <header class="shadow-down">
         <div>
             <img src="resouces/img/logo.png" alt="Логотип">
             <h1><span>Техноспас</span> <div class="line"></div> <span>Строй</span></h1>
         </div>
         <nav>
-            <div class="nav-item">О компании</div>
-            <div class="nav-item">Услуги</div>
-            <div class="nav-item">Контакты</div>
-            <div class="nav-item">Как мы работаем</div>
-            <div class="nav-item">Наши работы</div>
+            <div class="nav-item to-our-features">О компании</div>
+            <div class="nav-item to-price-list">Услуги</div>
+            <div class="nav-item to-contacts">Контакты</div>
+            <div class="nav-item to-how-we-work">Как мы работаем</div>
+            <div class="nav-item to-gallery">Наши работы</div>
         </nav>
     </header>
     
     <section id="meet-box" class="shadow-text">
-        <nav >
-            <div class="nav-item">О компании</div>
-            <div class="nav-item">Услуги</div>
-            <div class="nav-item">Контакты</div>
-            <div class="nav-item">Как мы работаем</div>
-            <div class="nav-item">Наши работы</div>
+        <nav>
+            <div class="nav-item to-our-features">О компании</div>
+            <div class="nav-item to-price-list">Услуги</div>
+            <div class="nav-item to-contacts">Контакты</div>
+            <div class="nav-item to-how-we-work">Как мы работаем</div>
+            <div class="nav-item to-gallery">Наши работы</div>
         </nav>
 
         <div class="features">
@@ -62,7 +88,7 @@
                 <p>Чёткое соблюдение сроков сдачи объекта.</p>
             </div>
 
-            <button class="main-btn">Оставить заявку</button>
+            <button class="open-form main-btn">Оставить заявку</button>
         </div>
     </section>
 
@@ -213,7 +239,7 @@
         <ol>
             <li class="shadow-down">
                 Вы оставляете заявку или звоните<br>нам по телефону: <b>+7 900 800 55-55</b>
-                <div class="request-btn">
+                <div class="open-form">
                     <div class="icon mail-icon"></div>
                     <div class="line"></div>
                     <div class="icon smartphone-icon"></div>
@@ -359,21 +385,27 @@
         <div class="percentage">
             <p class="gradient-fill">5<span>%</span></p>
         </div>
-        <button class="main-btn"><span class="gradient-fill">Оставить заявку</span></button>
+        <button class="open-form main-btn"><span class="gradient-fill">Оставить заявку</span></button>
     </section>
 
     <section id="gallery">
         <h2>Наши работы</h2>
         <div class="wrapper">
             <div class="image-packs">
-                <div class="pack shadow-down">
-
+                <div class="pack">
+                    Организация номер 1
                 </div>
-                <div class="pack shadow-down">
-
+                <div class="pack">
+                    Организация номер 2
                 </div>
-                <div class="pack shadow-down">
-
+                <div class="pack">
+                    Организация номер 3
+                </div>
+                <div class="pack">
+                    Организация номер 4
+                </div>
+                <div class="pack">
+                    Организация номер 5
                 </div>
             </div>
             <div class="image-view shadow-down">
@@ -382,11 +414,15 @@
                         <p class="address">Адрес</p>
                         <p class="service-name">Название услуги</p>
                     </div>
-                    <div class="counter"><span class="current">1</span> / <span class="all">8</span></div>
+                    <div class="counter"><span class="current">0</span> / <span class="all">0</span></div>
                 </div>
+                <button class="shadow-down previous"></button>
                 <div class="image-list">
-                    <img src="resouces/img/Image Preview.png" alt="Preview">
+                    <img src="resouces/img/Image_Preview.png" alt="Preview">
+                    <img src="resouces/img/Image_Preview.png" alt="Preview">
+                    <img src="resouces/img/Image_Preview.png" alt="Preview">
                 </div>
+                <button class="shadow-down next"></button>
             </div>
         </div>
     </section>
@@ -406,7 +442,7 @@
                     <h3>г. Нижний Тагил, ул. Патона 3</h3>
                 </div>
                 <div class="grid-column">
-                    <div class="icon" style="background-image: url(resouces/icons/mail-black.svg)"></div>
+                    <div class="icon" style="background-image: url(resouces/icons/mail-gradient.svg)"></div>
                     <p><span>Пишите</span><br>ответим на все ваши вопросы</p>
                     <h3><a href="mailto:uec-nk@yandex.ru">UEC-NK@yandex.ru</a></h3>
                 </div>
