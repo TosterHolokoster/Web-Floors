@@ -556,12 +556,12 @@ header .nav-item{
     margin-top: 60px;
 }
 
-.price-item{ display: flex; }
+.price-item{ display: flex; position: relative; }
 .price-item .dicription{
-    position: relative;
     width: 520px;
     padding: 40px 20px 10px 20px;
     background-color: #fff;
+    box-sizing: border-box;
 }
 .price-item h3{
     display: inline-block;
@@ -576,6 +576,7 @@ header .nav-item{
     text-transform: uppercase;
     font-size: 20px;
     box-sizing: border-box;
+    z-index: 1;
 }
 .price-item .price-box{
     position: relative;
@@ -946,12 +947,173 @@ section > h2, footer > h2{
 
  /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199px) { 
+
+    /* Order Form */
+    #order-form .wrapper{ padding: 40px 60px; }
+
+    /* Meet Box */
+    #meet-box{ background-position: right; }
+    #meet-box .features{ margin-left: 100px; }
+
+    /* Header */
+    header{ padding: 0 10px; }
+    header img{ display: none; }
+    header h1{ font-size: 22px; }
+    header .line{ margin: 0 6px; }
+    header .nav-item{ margin: 0px 10px; }
+
+    /* Floors Features */
+    .features-list .right p, .features-list .left p{
+        width: 340px;
+    }
     
+    /* Our Features */
+    .partners .slider{
+        width: 790px;
+    }
+    .partners .wrapper{
+        width: 650px;
+    }
+    .our-features-list{
+        width: 912px;
+        grid-template: repeat(4, 200px)/repeat(2, 1fr);
+    }
+    
+    /* How we Work  */
+    #how-we-work ol{ width: 992px; }
+    #how-we-work li{
+        width: 680px;
+        left: 40px;
+    }
+    #how-we-work li:nth-child(odd):before{left: 0; }
+    #how-we-work li:nth-child(even):before{ left: 0; }
+    #how-we-work li:nth-child(odd){
+        padding-left: 80px;
+    }
+    #how-we-work li, #how-we-work li:nth-child(even){
+        top: 0;
+        margin-left: 0;
+    }
+    #how-we-work li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    #how-we-work .open-form{
+        right: 40px;
+    }
+    #how-we-work .v-line{
+        left: 175px;
+    }
+
+    /* Price List */
+    #price-list .grid{
+        grid-template: repeat(8, 140px)/repeat(1, 800px);
+    }
+    .price-item h3{ right: auto; }
+    .price-item .dicription{
+        width: 640px;
+    }
+    .price-item .price-box{
+        width: 160px;
+    }
+
+    /* Gallery */
+    .image-packs{
+        width: 240px;
+        height: 470px;
+    }
+    .image-packs .pack{
+        width: 224px;
+        height: 140px;
+        padding: 20px 40px;
+    }
+    .image-list, .image-view{
+        width: 752px;
+        height: 470px;
+    }
+    
+    /* Footer */
+    footer .grid, footer #map{
+        width: 940px;
+    }
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399px) { 
+
+    /* Header */
+    header{ padding: 0 30px; }
+    header img{ height: 50px; }
+    header h1{ font-size: 24px; }
+    header .line{ margin: 0 8px; }
+    header .nav-item{ margin: 0px 14px; }
+
+    /* Our Features */
+    .partners .slider{
+        width: 1040px;
+    }
+    .partners .wrapper{
+        width: 900px;
+    }
+    .our-features-list{
+        width: 1100px;
+    }
     
+    /* How we Work  */
+    #how-we-work ol{ width: 1200px; }
+    #how-we-work li{
+        width: 680px;
+        left: 40px;
+    }
+    #how-we-work li:nth-child(odd):before{left: 0; }
+    #how-we-work li:nth-child(even):before{ left: 0; }
+    #how-we-work li:nth-child(odd){
+        padding-left: 80px;
+    }
+    #how-we-work li, #how-we-work li:nth-child(even){
+        top: 0;
+        margin-left: 0;
+    }
+    #how-we-work li:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    #how-we-work .open-form{
+        right: 40px;
+    }
+    #how-we-work .v-line{
+        left: 280px;
+    }
+
+    /* Price List */
+    #price-list .grid{
+        grid-template: repeat(4, 140px)/repeat(2, 560px);
+    }
+    .price-item h3{ right: 40px; }
+    .price-item .dicription{
+        width: 410px;
+    }
+    .price-item .price-box{
+        width: 150px;
+    }
+
+    /* Gallery */
+    .image-packs{
+        width: 240px;
+        height: 470px;
+    }
+    .image-packs .pack{
+        width: 224px;
+        height: 140px;
+        padding: 20px 40px;
+    }
+    .image-list, .image-view{
+        width: 752px;
+        height: 470px;
+    }
+    
+    /* Footer */
+    footer .grid, footer #map{
+        width: 1100px;
+    }
 }
 
 @media (min-width: 1400px) and (max-width: 1700px) { 
@@ -1009,7 +1171,7 @@ section > h2, footer > h2{
     }
 
     /* Footer */
-    footer .grid{
+    footer .grid, footer #map{
         width: 1200px;
     }
 }

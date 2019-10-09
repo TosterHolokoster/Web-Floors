@@ -43,32 +43,37 @@
 				"label": "Price List"
 			},
 			{
-				"line": 614,
+				"line": 615,
 				"column": 0,
 				"label": "Discount"
 			},
 			{
-				"line": 669,
+				"line": 670,
 				"column": 0,
 				"label": "Gallery"
 			},
 			{
-				"line": 808,
+				"line": 809,
 				"column": 0,
 				"label": "Footer"
 			},
 			{
-				"line": 893,
+				"line": 894,
 				"column": 0,
 				"label": "Templates"
 			},
 			{
-				"line": 929,
+				"line": 930,
 				"column": 0,
 				"label": "Media"
 			},
 			{
-				"line": 956,
+				"line": 1040,
+				"column": 0,
+				"label": "1200px - 1399px"
+			},
+			{
+				"line": 1118,
 				"column": 0,
 				"label": "1400px - 1700px"
 			}
