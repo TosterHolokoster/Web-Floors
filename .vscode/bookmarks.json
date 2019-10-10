@@ -13,67 +13,82 @@
 				"label": "Order Form"
 			},
 			{
-				"line": 153,
+				"line": 164,
 				"column": 0,
 				"label": "Header"
 			},
 			{
-				"line": 204,
+				"line": 228,
 				"column": 0,
 				"label": "Meet Box"
 			},
 			{
-				"line": 268,
+				"line": 292,
 				"column": 0,
 				"label": "Floors Features"
 			},
 			{
-				"line": 330,
+				"line": 354,
 				"column": 0,
 				"label": "Our Features"
 			},
 			{
-				"line": 413,
+				"line": 437,
 				"column": 0,
 				"label": "How We Work"
 			},
 			{
-				"line": 548,
+				"line": 574,
 				"column": 0,
 				"label": "Price List"
 			},
 			{
-				"line": 615,
+				"line": 641,
 				"column": 0,
 				"label": "Discount"
 			},
 			{
-				"line": 670,
+				"line": 696,
 				"column": 0,
 				"label": "Gallery"
 			},
 			{
-				"line": 809,
+				"line": 835,
 				"column": 0,
 				"label": "Footer"
 			},
 			{
-				"line": 894,
+				"line": 920,
 				"column": 0,
 				"label": "Templates"
 			},
 			{
-				"line": 930,
+				"line": 956,
 				"column": 0,
 				"label": "Media"
 			},
 			{
-				"line": 1040,
+				"line": 970,
+				"column": 0,
+				"label": "576px - 767px"
+			},
+			{
+				"line": 1148,
+				"column": 0,
+				"label": "768px - 991px"
+			},
+			{
+				"line": 1327,
+				"column": 0,
+				"label": "992px - 1199px"
+			},
+			{
+				"line": 1436,
 				"column": 0,
 				"label": "1200px - 1399px"
 			},
 			{
-				"line": 1118,
+				"line": 1515,
 				"column": 0,
 				"label": "1400px - 1700px"
 			}

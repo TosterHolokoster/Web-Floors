@@ -9,10 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css">
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- Main JS -->
-    <script src="main.js"></script>
 </head>
 <body>
     <div id="top-header">
@@ -26,6 +22,7 @@
         <div class="wrapper shadow-down">
             <h2>Форма заявки</h2>
             <form>
+                <span class="close-btn"></span>
                 <div>
                     <h3>Как к Вам обращаться?</h3>
                     <input type="text" name="last-name" id="f-last-name" placeholder="Фамилия">
@@ -61,7 +58,8 @@
             <div class="nav-item to-gallery">Наши работы</div>
         </nav>
     </header>
-    
+    <div id="toggle-header" class="shadow-down"></div>
+
     <section id="meet-box" class="shadow-text">
         <nav>
             <div class="nav-item to-our-features">О компании</div>
@@ -239,7 +237,7 @@
         <h2>Как мы работаем?</h2>
         <ol>
             <li class="shadow-down">
-                Вы оставляете заявку или звоните<br>нам по телефону: <b>+7 900 800 55-55</b>
+                Вы оставляете заявку или звоните<wbr> нам по телефону: <b>+7 900 800 55-55</b>
                 <div class="open-form">
                     <div class="icon mail-icon"></div>
                     <div class="line"></div>
@@ -253,7 +251,7 @@
                 По желанию даем образец покрытия
             </li>
             <li class="shadow-down">Обсуждаем последние детали и заключаем договор</li>
-            <li class="shadow-down">Качественно и в срок укладываем полы, сдаем объект.<br>Вы оплачиваете нашу работу</li>
+            <li class="shadow-down">Качественно и в срок укладываем полы, сдаем объект.<wbr> Вы оплачиваете нашу работу</li>
             <div class="v-line">
                 <div class="circle circle-top"></div>
                 <div class="circle circle-bottom"></div>
@@ -437,7 +435,7 @@
                     <p><span>Звоните</span><br>мы с радостью с вами поговорим</p>
                     <h3><a href="tel:+79024415994">+7 902 441 59 94</a></h3>
                 </div>
-                <div class="grid-column">
+                <div class="grid-column location">
                     <div class="icon" style="background-image: url(resouces/icons/address.svg)"></div>
                     <p><span>Приходите</span><br>наши двери для вас всегда открыты</p>
                     <h3>г. Нижний Тагил, ул. Патона 3</h3>
@@ -465,5 +463,10 @@
             </p>
         </div>
     </footer>
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Main JS -->
+    <script src="main.js"></script>
 </body>
 </html>

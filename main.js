@@ -11,13 +11,16 @@ $(document).ready(function(){
     //Скрытие/показ шапки при скролле страницы
     let _window = $(window);  
     _window.scroll(function(){
-        if(!headerIsOpen && _window.scrollTop() >= 120){
-            ShowHeader();
-        }
-        else if(headerIsOpen && _window.scrollTop() < 120){
-            HideHeader();
+        if(_window.width() > 992){
+            if(!headerIsOpen && _window.scrollTop() >= 120){
+                ToggleHeader();
+            }
+            else if(headerIsOpen && _window.scrollTop() < 120){
+                ToggleHeader();
+            }
         }
     })
+    $("#toggle-header").click(ToggleHeader);
 
     //Анимация скролла к разделам
     $(".to-our-features").click(function(){
@@ -56,19 +59,19 @@ $(document).ready(function(){
     InitGallery();
 
     //Открытие/закрытие формы заявки
-    let header = $("#top-header");
+    let topHeader = $("#top-header");
     let orderForm = $("#order-form")
     let shadow = $("#order-form .dark")
     let formBox = $("#order-form .wrapper")
 
     $(".open-form, #top-header .circle").click(function(){
-        header.addClass("big");
+        topHeader.addClass("big");
         orderForm.css("display", "flex");
         shadow.animate({"opacity" : 1}, 400);
         formBox.css({"transform": "translateY(0px)"});
     });
-    shadow.click(function(){
-        header.removeClass("big");
+    $("#order-form .dark, #order-form .close-btn").click(function(){
+        topHeader.removeClass("big");
         formBox.css({"transform": "translateY(-800px)"});
         shadow.animate({"opacity" : 0}, 400, function(){
             orderForm.css("display", "none");
@@ -76,13 +79,15 @@ $(document).ready(function(){
     });
 });
 
-function ShowHeader(){
-    headerIsOpen = true;
-    $("header").animate({"top": "30px"}, 500)
-}
-function HideHeader(){
-    headerIsOpen = false;
-    $("header").animate({"top": "-75px"}, 500)
+function ToggleHeader(){
+    let header =  $("header");
+    if(!headerIsOpen){
+        header.stop().animate({"top": 30}, 500)
+    }
+    else{
+        header.stop().animate({"top": -300}, 500)
+    }
+    headerIsOpen = !headerIsOpen;
 }
 
 function ScrollTo(offset){
